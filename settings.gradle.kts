@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PixelDays"
+rootProject.name = "Pixel-days"
 include(":app")
