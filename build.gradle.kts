@@ -55,7 +55,6 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
 
-// Apply Firebase Gradle configuration only if the project file is present.
 if (file("google-services.json").exists()) {
     apply(plugin = "com.google.gms.google-services")
 }
